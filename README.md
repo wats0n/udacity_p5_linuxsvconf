@@ -5,10 +5,10 @@ For this project, I initialized a web-server from catalog project and modified f
 
 ## Quick Start
 
-- IP address: 52.36.90.240
+- IP address: 52.37.226.123
 - SSH Port: 2200
 - Restaurant Catalog Project Link: 
-  * http://52.36.90.240/restaurant/
+  * http://52.37.226.123/restaurant/
 - Connect Server by following command in Git Bash Shell:
   * `ssh -i udacity_key.rsa grader@52.37.226.123 -p 2200`
 - Catalog Project at `/var/www/html/catalog/` directory.
