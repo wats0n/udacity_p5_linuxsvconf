@@ -36,6 +36,9 @@ For this project, I initialized a web-server from catalog project and modified f
         3. port 123/tcp
     * Configure default timezont to UTC
     * Change Python simple web server to Apache server with WSGI function
+    * Setup grader sudo timeout every 5 minutes
+    * Use `sudo crontab -e` to add auto-update at AM 5:00
+    * Add Fail2ban to monitor on 2200 port
 
 ## Port flask app to Apache WSGI
     1. create catalog.wsgi
@@ -49,4 +52,4 @@ For this project, I initialized a web-server from catalog project and modified f
 ## Creator(s)
 ------
 Watson Huang (wats0n)
-03/28, 2016
+03/29, 2016
